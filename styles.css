@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul, li {
@@ -139,9 +142,9 @@ ul, li {
     font-weight: bold;
     font-size: 24px;
 }
+
 .action {
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding: 5rem 0;
@@ -149,26 +152,50 @@ ul, li {
 
 .container3 {
     display: flex;
-    flex-direction: column;
     background-color: #3882F6;
     padding: 2rem 12rem;
     border-radius: 10px;
 }
 
-.cta1 {
+.text3 {
     display: flex;
+    flex-direction: column;
+}
+
+.cta1 {
     color: #F9FAF8;
     font-weight: bold;
+    font-size: 20px;
+    margin: 0;
 }
 
 .cta2 {
     color: #F9FAF8;
     font-size: 16px;
     font-weight: lighter;
+    margin: 0;
 }
 
 .cta3 {
     display: flex;
-    align-self: flex-end;
-    justify-content: flex-end;
+    margin-left: 7rem;
+}
+
+.cta3 button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-style: none;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 1px 40px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 12px;
 }
